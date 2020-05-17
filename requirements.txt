@@ -5,5 +5,5 @@ matplotlib
 seaborn
 sklearn
 openpyxl
-Pillow==6.2.1
+Pillow>=6.2.2
 joblib
