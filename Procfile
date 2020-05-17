@@ -1,1 +1,1 @@
-web: streamlit run Performance_predictor_UI.py
+web: streamlit run \Model\Performance_predictor_UI.py
