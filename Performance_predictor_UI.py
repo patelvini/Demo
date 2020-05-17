@@ -4,13 +4,13 @@ import os
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
-import Custom_Model
+import Modules.Custom_Model
 from sklearn.model_selection import train_test_split
 import joblib
 from PIL import Image
 import time
 import re
-import SendMail
+import Modules.SendMail
 from openpyxl import Workbook
 from openpyxl import load_workbook
 
