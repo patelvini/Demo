@@ -1,0 +1,9 @@
+pandas
+numpy 
+streamlit
+matplotlib
+seaborn
+sklearn
+openpyxl
+Pillow==6.2.1
+joblib
