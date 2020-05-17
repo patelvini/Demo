@@ -4,7 +4,7 @@ import os
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
-import Modules.Modules.Custom_model
+import Modules.Custom_model
 from sklearn.model_selection import train_test_split
 import joblib
 from PIL import Image
