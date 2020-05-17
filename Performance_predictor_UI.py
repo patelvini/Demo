@@ -4,7 +4,7 @@ import os
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
-import Modules.Custom_Model
+import Modules.Modules.Custom_model
 from sklearn.model_selection import train_test_split
 import joblib
 from PIL import Image
@@ -129,7 +129,7 @@ if __name__ == '__main__':
 		for percent_complete in range(100):
 			time.sleep(0.1)
 			progress_bar.progress(percent_complete+1)
-		model = Custom_Model.LinearRegressor()
+		model = Modules.Custom_model.LinearRegressor()
 		m, c = model.gradient_descent(x_train, y_train, B, alpha, 10000)
 
 		st.sidebar.success("Model Trained Successfully!!")
@@ -137,7 +137,7 @@ if __name__ == '__main__':
 	st.sidebar.title("Test Model")
 
 	if st.sidebar.button('Test'):
-		model = Custom_Model.LinearRegressor()
+		model = Modules.Custom_model.LinearRegressor()
 		m, c = model.gradient_descent(x_train, y_train, B, alpha, 10000)
 		predictions = model.predict(x_test, m).astype(int)
 		st.sidebar.text("R2 value : ")
@@ -195,7 +195,7 @@ if __name__ == '__main__':
 
 			X = np.array([gender, p_level, lunch, test_prep, math, read, write]).T
 
-			model = Custom_Model.LinearRegressor()
+			model = Modules.Custom_model.LinearRegressor()
 			m, c = model.gradient_descent(x_train, y_train, B, alpha, 10000)
 
 			prediction = model.predict(X, m).astype(int)[0]
@@ -231,7 +231,7 @@ if __name__ == '__main__':
 				st.warning("**Woops!!! You need to work hard. Don't loose hope and keep working hard. Best of luck!!**")
 
 
-			sm = SendMail.Mail(name_ip, roll_no_ip, total_score, Result, Grade, email_ip)
+			sm = Modules.SendMail.Mail(name_ip, roll_no_ip, total_score, Result, Grade, email_ip)
 
 			sm.send_mail()
 
