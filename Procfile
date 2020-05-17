@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run Model/Performance_predictor_UI.py
+web: sh setup.sh && streamlit run Performance_predictor_UI.py
