@@ -1,1 +1,1 @@
-web: streamlit run --pythonpath app Performance_predictor_UI.py
+web: sh setup.ah && streamlit run Performance_predictor_UI.py
