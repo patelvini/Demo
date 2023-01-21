@@ -26,4 +26,4 @@ All the modules and code for Student's Performance Predictor are given in `Model
 
 ![](Output/custom_regression_line.png)
 
-![](Output/Performancepredictor.mp4)
+![](https://github.com/patelvini/Student-s-Performance-Predictor/blob/master/Output/Performance_predictor.mp4)
