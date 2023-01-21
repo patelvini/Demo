@@ -25,3 +25,5 @@ All the modules and code for Student's Performance Predictor are given in `Model
 ![](Output/Custom_output.PNG)
 
 ![](Output/custom_regression_line.png)
+
+![](Output/Performancepredictor.mp4)
