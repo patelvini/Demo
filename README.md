@@ -20,10 +20,10 @@ The dataset is given in `Data/` directory.
 
 All the modules and code for Student's Performance Predictor are given in `Model/` directory. 
 
-### Output
+### Output [Click here for video demo](https://github.com/patelvini/Student-s-Performance-Predictor/blob/master/Output/Performance_predictor.mp4)
 
 ![](Output/Custom_output.PNG)
 
 ![](Output/custom_regression_line.png)
 
-[Video Demo](https://github.com/patelvini/Student-s-Performance-Predictor/blob/master/Output/Performance_predictor.mp4)
+
